@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, viewport-fit=cover, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+	<meta name="format-detection" content="telephone=no, address=no, email=no">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="default">
+	<link rel="stylesheet" href="./assets/css/lib/jquery-ui.min.css">
+	<link rel="stylesheet" href="./assets/css/lib/swiper-bundle.min.css">
+	<link rel="stylesheet" href="./assets/css/common.css">
+	<script type="text/javascript" src="./assets/js/lib/jquery-3.6.0.min.js"></script>
+	<script type="text/javascript" src="./assets/js/lib/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="./assets/js/lib/swiper-bundle.min.js"></script>
+	<script type="text/javascript" src="./assets/js/common.js"></script>
+	<title>예약</title>
+</head>
+<body>
+<!-- #WRAP -->
+<div id="wrap">
+	<!-- #header -->
+	<header id="header">
+		<div class="inner">
+			<h1>
+				<a href="main.html">
+					<span class="blind">파랑버스</span>
+				</a>
+			</h1>
+			<button type="button" class="btn_site">
+				<span></span><span></span><span></span>
+			</button>
+		</div>
+	</header>
+	<!-- // #header -->
+
+	<!-- 전체메뉴 -->
+	<div class="site_menu">
+		<div class="inner">
+			<ul>
+				<li><a href="main.html">신청</a></li>
+				<li><a href="res_03.html">견적확인</a></li>
+			</ul>
+		</div>
+	</div>
+	<!--// 전체메뉴 -->
+
+	<div class="bg_area"></div>
+
+	<!-- #CONTENTS -->
+	<div id="contents">
+		<!-- 예약 -->
+		<section class="sec_res">
+			<!-- 타이틀영역 -->
+			<div class="tit_area">
+				<h2>지금, 바로, 비교하고<br>예약하세요!</h2>
+				<p>파랑버스와 함께라면 합리적인 가격으로 함께 이동하실 수 있습니다.</p>
+			</div>
+			<!--// 타이틀영역 -->
+
+			<!-- 예약패널 -->
+			<div class="res_panel">
+				<div class="wrapping">
+					<!-- 탭 -->
+					<div class="tab">
+						<a href="#" class="active">출발, 귀환만 기사님 동행</a><!-- 활성화시 class="active"추가 -->
+						<a href="#">출발, 귀환만 기사님 동행</a>
+					</div>
+					<!--// 탭 -->
+
+					<!-- 입력 -->
+					<div class="inpt_wrap">
+						<!-- 결제선택 -->
+						<div class="group">
+							<div class="rdo_type_01">
+								<div class="rdo_wrap">
+									<label for="pay_01">
+										<input type="radio" id="pay_01" name="type_01">
+										<p class="inpt">세금계산서 및 현금영수증 발행</p>
+										<i class="i_chk"></i>
+									</label>
+								</div>
+								<div class="rdo_wrap">
+									<label for="pay_02">
+										<input type="radio" id="pay_02" checked name="type_01">
+										<p class="inpt">카드 결제</p>
+										<i class="i_chk"></i>
+									</label>
+								</div>
+							</div>
+						</div>
+						<!--// 결제선택 -->
+
+						<!-- 버스선택 -->
+						<div class="group">
+							<div class="rdo_type_02">
+								<div class="rdo_wrap">
+									<label for="bus_01">
+										<input type="radio" id="bus_01" name="type_02">
+										<p class="inpt">미니버스(최대 25인승)</p>
+										<i class="i_chk"></i>
+									</label>
+								</div>
+								<div class="rdo_wrap">
+									<label for="bus_02">
+										<input type="radio" id="bus_02" name="type_02" checked>
+										<p class="inpt">대형버스(최대 45인승)</p>
+										<i class="i_chk"></i>
+									</label>
+								</div>
+								<div class="rdo_wrap">
+									<label for="bus_03">
+										<input type="radio" id="bus_03" name="type_02">
+										<p class="inpt">대형우등(최대 28인승)</p>
+										<i class="i_chk"></i>
+									</label>
+								</div>
+								<div class="rdo_wrap">
+									<label for="bus_04">
+										<input type="radio" id="bus_04" name="type_02">
+										<p class="inpt">벤(최대 14인승)</p>
+										<i class="i_chk"></i>
+									</label>
+								</div>
+								<div class="rdo_wrap none">
+									<label for="bus_05">
+										<input type="radio" id="bus_05" name="type_02">
+										<p class="inpt">상관없음</p>
+										<i class="i_chk"></i>
+									</label>
+								</div>
+							</div>
+						</div>
+						<!--// 버스선택 -->
+					</div>
+					<!--// 입력 -->
+
+					<!-- 버튼 -->
+					<div class="btn_wrap">
+						<a href="#" class="btn btn_bk">다시 선택</a>
+						<a href="res_02.html" class="btn">신청하기</a>
+					</div>
+					<!--// 버튼 -->
+				</div>
+			</div>
+			<!--// 예약패널 -->
+
+
+		</section>
+		<!--// 예약 -->
+	</div>
+	<!-- // #CONTENTS -->
+</div>
+<!-- // WRAP -->
+</body>
+</html>
